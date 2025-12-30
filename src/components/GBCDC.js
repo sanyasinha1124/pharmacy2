@@ -109,6 +109,7 @@
 
 
 
+
 import React, { useState } from "react";
 import "./GBCDC.css";
 
@@ -158,7 +159,7 @@ const GBCDC = () => {
                 className="view-document-btn"
                 onClick={() => openPdfViewer(doc.url)}
               >
-                View
+                View Document
               </button>
             </div>
           ))}
@@ -186,7 +187,7 @@ const GBCDC = () => {
                 className="view-document-btn"
                 onClick={() => openPdfViewer(doc.url)}
               >
-                View
+                View Document
               </button>
             </div>
           ))}
